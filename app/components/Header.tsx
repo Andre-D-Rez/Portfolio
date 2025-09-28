@@ -38,7 +38,7 @@ export function Header() {
                 isScrolled ? "text-gray-900 dark:text-white" : "text-white"
               }`}
             >
-              André D. Rezende
+              André Delarovera Rezende
             </button>
           </div>
 
@@ -116,5 +116,5 @@ export function Header() {
 const navItems = [
   { id: "about", label: "Sobre" },
   { id: "projects", label: "Projetos" },
-  { id: "contact", label: "Contato" },
+  { id: "social", label: "Social" },
 ];

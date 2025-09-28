@@ -1,4 +1,5 @@
 export function Hero() {
+
   return (
     <section className="relative bg-gradient-to-br from-blue-600 via-purple-600 to-blue-800 text-white py-32">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -7,11 +8,13 @@ export function Hero() {
             André D. Rezende
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto">
-            Estudante de Engenharia de Computação na Universidade Senai Cimatec, focado em desenvolvimento de jogos. 
-            Tenho experiência com motores de jogos, como Unity, além de conhecimento em linguagens como C#, C++ e JavaScript. 
-            Meu objetivo é criar experiências interativas que inspirem e conectem pessoas.
+            Estudante de Engenharia de Computação na Universidade Senai Cimatec,
+            focado em desenvolvimento de jogos. Tenho experiência com motores de
+            jogos, como Unity, além de conhecimento em linguagens como C#, C++ e
+            JavaScript. Meu objetivo é criar experiências interativas que
+            inspirem e conectem pessoas.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
             <a
               href="#projects"
               className="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-blue-50 transition-colors duration-200"
@@ -19,12 +22,13 @@ export function Hero() {
               Ver Projetos
             </a>
             <a
-              href="#contact"
+              href="#social"
               className="inline-flex items-center px-8 py-3 border-2 border-white text-base font-medium rounded-md text-white hover:bg-white hover:text-blue-600 transition-colors duration-200"
             >
-              Contato
+              Conectar
             </a>
           </div>
+
         </div>
       </div>
       <div className="absolute bottom-0 left-0 right-0">
