@@ -3,7 +3,7 @@ import { Header } from "../components/Header";
 import { Hero } from "../components/Hero";
 import { About } from "../components/About";
 import { Projects } from "../components/Projects";
-import { Contact } from "../components/Contact";
+import { Social } from "../components/Social";
 import { Footer } from "../components/Footer";
 
 export function meta({}: Route.MetaArgs) {
@@ -25,7 +25,7 @@ export default function Home() {
         <Hero />
         <About />
         <Projects />
-        <Contact />
+        <Social />
       </main>
       <Footer />
     </div>

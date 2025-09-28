@@ -12,9 +12,12 @@ export function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-              Sou um estudante de Engenharia de Computação na Universidade Senai Cimatec, com foco em desenvolvimento de jogos. 
-              Tenho interesse em criar experiências interativas e inovadoras, explorando tanto o front-end quanto o back-end de aplicações web e jogos digitais. 
-              Busco constantemente aprender novas tecnologias e aprimorar minhas habilidades para entregar soluções criativas e eficientes.
+              Sou um estudante de Engenharia de Computação na Universidade Senai
+              Cimatec, com foco em desenvolvimento de jogos. Tenho interesse em
+              criar experiências interativas e inovadoras, explorando tanto o
+              front-end quanto o back-end de aplicações web e jogos digitais.
+              Busco constantemente aprender novas tecnologias e aprimorar minhas
+              habilidades para entregar soluções criativas e eficientes.
             </p>
 
             <div className="flex flex-wrap gap-3">
