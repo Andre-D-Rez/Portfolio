@@ -1,12 +1,35 @@
 {
   "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio pessoal desenvolvido com React, TypeScript, TailwindCSS e React Router V7",
   "private": true,
   "type": "module",
+  "author": {
+    "name": "André D. Rezende",
+    "email": "andre.rezende@email.com",
+    "url": "https://github.com/Andre-D-Rez"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Andre-D-Rez/Portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "react",
+    "typescript",
+    "tailwindcss",
+    "vite"
+  ],
   "scripts": {
     "build": "react-router build",
     "dev": "react-router dev",
     "start": "react-router-serve ./build/server/index.js",
-    "typecheck": "react-router typegen && tsc"
+    "typecheck": "react-router typegen && tsc",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "release:patch": "npm version patch && git push origin main --tags",
+    "release:minor": "npm version minor && git push origin main --tags",
+    "release:major": "npm version major && git push origin main --tags"
   },
   "dependencies": {
     "@react-router/node": "^7.9.2",

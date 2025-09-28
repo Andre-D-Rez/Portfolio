@@ -1,13 +1,33 @@
 import type { Route } from "./+types/home";
-import { Welcome } from "../welcome/welcome";
+import { Header } from "../components/Header";
+import { Hero } from "../components/Hero";
+import { About } from "../components/About";
+import { Projects } from "../components/Projects";
+import { Contact } from "../components/Contact";
+import { Footer } from "../components/Footer";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "André D. Rezende - Portfolio" },
+    {
+      name: "description",
+      content:
+        "Estudante de Engenharia de Computação na Universidade Senai Cimatec, focado em desenvolvimento de jogos.",
+    },
   ];
 }
 
 export default function Home() {
-  return <Welcome />;
+  return (
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
+      <Header />
+      <main id="hero">
+        <Hero />
+        <About />
+        <Projects />
+        <Contact />
+      </main>
+      <Footer />
+    </div>
+  );
 }
